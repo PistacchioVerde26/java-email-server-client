@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <WebView fx:id="webView" layoutX="14.0" layoutY="122.0" prefHeight="469.0" prefWidth="773.0" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="13.0" AnchorPane.topAnchor="122.0" />
+      <Label layoutX="14.0" layoutY="67.0" text="Oggetto" />
+      <Label layoutX="15.0" layoutY="19.0" text="Da" />
+      <Button layoutX="656.0" layoutY="16.0" mnemonicParsing="false" onAction="#answerEmailAction" prefHeight="31.0" prefWidth="102.0" text="Rispondi" />
+      <Label layoutX="14.0" layoutY="44.0" text="A" />
+      <Label fx:id="senderLabel" layoutX="73.0" layoutY="19.0" />
+      <Label fx:id="recipientsLabel" layoutX="73.0" layoutY="44.0" />
+      <Label fx:id="subjectLabel" layoutX="73.0" layoutY="67.0" />
+      <Button layoutX="656.0" layoutY="60.0" mnemonicParsing="false" onAction="#answerAllEmailAction" prefHeight="31.0" prefWidth="102.0" text="Rispondi a tutti" />
+   </children>
+</AnchorPane>

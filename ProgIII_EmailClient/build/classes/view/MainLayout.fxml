@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="14.0" layoutY="11.0" mnemonicParsing="false" onAction="#composeBtnAction" prefHeight="59.0" prefWidth="110.0" text="Nuova email" />
+      <TreeView fx:id="emailFolderdsTreeView" layoutX="11.0" layoutY="79.0" prefHeight="662.0" prefWidth="218.0" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="11.0" AnchorPane.topAnchor="79.0" />
+      <TableView fx:id="emailTable" layoutX="229.0" layoutY="79.0" prefHeight="257.0" prefWidth="777.0" AnchorPane.leftAnchor="229.0" AnchorPane.rightAnchor="18.0" AnchorPane.topAnchor="79.0">
+         <columns>
+            <TableColumn fx:id="subjectCol" prefWidth="324.0" text="Oggetto" />
+            <TableColumn fx:id="senderCol" minWidth="0.0" prefWidth="220.0" text="Mittente" />
+            <TableColumn fx:id="dateCol" prefWidth="137.0" text="Data" />
+            <TableColumn fx:id="sizeCol" prefWidth="95.0" text="Dimensione" />
+         </columns></TableView>
+      <WebView fx:id="messageRenderer" layoutX="229.0" layoutY="336.0" prefHeight="405.0" prefWidth="777.0" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="229.0" AnchorPane.rightAnchor="18.0" AnchorPane.topAnchor="336.0" />
+      <Button layoutX="893.0" layoutY="11.0" mnemonicParsing="false" onAction="#addNewAccountAction" prefHeight="25.0" prefWidth="110.0" text="Aggiungi account" />
+      <Button layoutX="893.0" layoutY="45.0" mnemonicParsing="false" onAction="#removeAccount" prefHeight="25.0" prefWidth="110.0" text="Rimuovi account" />
+      <Button fx:id="btnRemoveEmail" layoutX="229.0" layoutY="45.0" mnemonicParsing="false" onAction="#removeEmail" text="Elimina email" />
+   </children>
+</AnchorPane>

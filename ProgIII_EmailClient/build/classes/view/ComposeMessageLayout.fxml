@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="22.0" layoutY="28.0" text="Da" />
+      <Label layoutX="22.0" layoutY="61.0" text="Destinatari" />
+      <Label layoutX="22.0" layoutY="96.0" text="Oggetto" />
+      <ChoiceBox fx:id="senderChoice" layoutX="94.0" layoutY="24.0" prefHeight="25.0" prefWidth="416.0" AnchorPane.leftAnchor="94.0" AnchorPane.rightAnchor="140.0" />
+      <TextField fx:id="recipientField" layoutX="94.0" layoutY="57.0" prefHeight="25.0" prefWidth="416.0" AnchorPane.leftAnchor="94.0" AnchorPane.rightAnchor="140.0" />
+      <TextField fx:id="subjectField" layoutX="94.0" layoutY="92.0" prefHeight="25.0" prefWidth="416.0" AnchorPane.leftAnchor="94.0" AnchorPane.rightAnchor="140.0" />
+      <Label fx:id="errorLabel" layoutX="15.0" layoutY="671.0" text="No Error" />
+      <Button layoutX="539.0" layoutY="21.0" mnemonicParsing="false" onAction="#sendBtnAction" prefHeight="97.0" prefWidth="89.0" text="INVIA" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="21.0" />
+      <HTMLEditor fx:id="composeArea" htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutX="15.0" layoutY="134.0" prefHeight="529.0" prefWidth="619.0" AnchorPane.bottomAnchor="37.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="134.0" />
+   </children>
+</AnchorPane>
