@@ -1,4 +1,4 @@
-# java-email-server-client
+# Email Client/Server - Java
 Project for the university exam of advanced programming in Java
 
 This project was developed in total autonomy for the practical part of the exam Programmazione III (advanced java programming) of the Computer Science course at UniTO in 2018.
