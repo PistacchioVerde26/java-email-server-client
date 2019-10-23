@@ -7,4 +7,4 @@ The final products were to be an email server that manages emails account and a 
 The UI for the client was developed using JavaFX meanwhile for the server, given the simplicity of it's UI, was developed with Swing.
 Also, a strict MVC pattern was to be followed in order to pass the exam.
 
-With this final project i got a mark of 30.
+With this final project i got a grade of 30/30.
